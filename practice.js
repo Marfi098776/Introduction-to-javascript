@@ -58,21 +58,23 @@
 
 // Grade calculator
 
-const studentResult = 69;
+// const studentResult = 69;
 
-if(studentResult >= 90 && studentResult <= 100){
-    console.log('A')
-}
-else if(studentResult >= 80 && studentResult <= 89){
-    console.log('B')
-}
-else if(studentResult >= 70 && studentResult <= 79){
-    console.log('C')
-}
-else if(studentResult >= 60 && studentResult <= 69){
-    console.log('D')
-}
-else if(studentResult >= 0 && studentResult <= 59){
-    console.log('F')
-}
+// if(studentResult >= 90 && studentResult <= 100){
+//     console.log('A')
+// }
+// else if(studentResult >= 80 && studentResult <= 89){
+//     console.log('B')
+// }
+// else if(studentResult >= 70 && studentResult <= 79){
+//     console.log('C')
+// }
+// else if(studentResult >= 60 && studentResult <= 69){
+//     console.log('D')
+// }
+// else if(studentResult >= 0 && studentResult <= 59){
+//     console.log('F')
+// }
+
+// nested-friend
 
