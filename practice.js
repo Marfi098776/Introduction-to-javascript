@@ -78,3 +78,63 @@
 
 // nested-friend
 
+// const myResult = 79 ;
+// const friendResult = 33 ;
+
+// if(myResult > 80){
+//     if(friendResult > 80){
+//         console.log("Let's go for a lunch")
+//     }
+//     else if(friendResult < 80 && friendResult >= 60){
+//         console.log("Good luck next time")
+//     }
+//     else if(friendResult < 60 && friendResult >= 40){
+//         console.log("unseen message")
+//     }
+//     else if(friendResult < 40){
+//         console.log("Block")
+//     }
+// }
+// else{
+//     console.log("Go to home and sleep and act sad")
+// }
+
+
+// Ternary numbers
+
+// const num1 = 10;
+// const num2 = 8;
+
+
+// if(num1 > num2){
+//     const result = num1*2 ;
+//     console.log(result)
+// }
+// else{
+//     const result = num1 + num2 ;
+//     console.log(result)
+// }
+
+
+// Bus ticket fare calculator
+
+const busFare = 800 ;
+const age = 60;
+if(age < 10){
+    console.log("children : ticket free")
+}
+else if(age >= 12 && age <= 25){
+    // 50% discount
+    const discount = busFare*50 / 100 ;
+    const payAmount = busFare - discount ;
+    console.log("Student : 50% discount",payAmount)
+}
+else if(age >= 60){
+    // 15% discount
+    const discount = busFare*15 / 100 ;
+    const payAmount = busFare - discount ;
+    console.log("Senior citizen : 15% discount",payAmount)
+}
+else{
+    console.log("Regular fare :",busFare)
+}
