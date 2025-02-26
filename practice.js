@@ -114,27 +114,32 @@
 //     const result = num1 + num2 ;
 //     console.log(result)
 // }
+// const age = 14 ;
+// age >= 18 ? console.log('Vote dite parba') : console.log('Boyosh hole parba')
+
+
 
 
 // Bus ticket fare calculator
 
-const busFare = 800 ;
-const age = 60;
-if(age < 10){
-    console.log("children : ticket free")
-}
-else if(age >= 12 && age <= 25){
-    // 50% discount
-    const discount = busFare*50 / 100 ;
-    const payAmount = busFare - discount ;
-    console.log("Student : 50% discount",payAmount)
-}
-else if(age >= 60){
-    // 15% discount
-    const discount = busFare*15 / 100 ;
-    const payAmount = busFare - discount ;
-    console.log("Senior citizen : 15% discount",payAmount)
-}
-else{
-    console.log("Regular fare :",busFare)
-}
+// const busFare = 800 ;
+// const age = 60;
+// if(age < 10){
+//     console.log("children : ticket free")
+// }
+// else if(age >= 12 && age <= 25){
+//     // 50% discount
+//     const discount = busFare*50 / 100 ;
+//     const payAmount = busFare - discount ;
+//     console.log("Student : 50% discount",payAmount)
+// }
+// else if(age >= 60){
+//     // 15% discount
+//     const discount = busFare*15 / 100 ;
+//     const payAmount = busFare - discount ;
+//     console.log("Senior citizen : 15% discount",payAmount)
+// }
+// else{
+//     console.log("Regular fare :",busFare)
+// }
+
